@@ -1,4 +1,4 @@
-sudo hostname ayoub
+eval sudo hostname ayoub
 
 # the problem with method is that the hostname will revert 
 # to the original when you restart your system.
