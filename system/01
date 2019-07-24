@@ -1,0 +1,2 @@
+cat /etc/debian_version
+# or cat /etc/os-release

@@ -1,0 +1,7 @@
+
+/etc/hosts
+
+on most operating system the default configuration is that any mappings contained in the Hosts file
+overrides any information that would be retrieved from a DNS server. In fact, if there is a mapping
+for a domain name in a hosts file, then your computer will not even bother querying the DNS servers 
+that are authoritative for that domain, but instead read the IP address directly from the HOSTS file.

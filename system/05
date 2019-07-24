@@ -1,0 +1,8 @@
+eval systemctl status ssh | grep active
+
+#or
+#sudo service sshd status | grep active
+#or
+#sudo service ssh status | grep active
+#or
+#/etc/init.d/ssh status | grep active

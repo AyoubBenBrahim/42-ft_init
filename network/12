@@ -1,0 +1,5 @@
+eval ifconfig en0 | awk -F" " '(NR == 5) {print $2}'
+#IP that was assigned to you by dhcp server
+#---------
+#  cat /var/log/sethostname.log | tail -7
+#  host e2r5p11.1337.ma.

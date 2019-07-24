@@ -1,0 +1,6 @@
+eval curl ipinfo.io/$(host slash16.org | awk -F' ' '(NR == 1) {print $4}')/org
+
+#1/ get the ip address 
+#host slash16.org
+#2/ find the provider of this IP
+#   curl ipinfo.io/52.85.22.146/org

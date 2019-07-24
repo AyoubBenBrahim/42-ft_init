@@ -1,0 +1,7 @@
+htop
+
+#or top
+# ps show you a snapshot of the system as it was at the time. 
+# Often, that limited sample is insuffcient to convey the big picture of what’s really going on.
+# top is a sort of real-time version of ps that gives a regularly updated, interactive summary
+# of processes and their resource usage. 

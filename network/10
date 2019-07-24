@@ -1,0 +1,15 @@
+eval traceroute  slash16.org
+
+# 64 hops max
+# khouribga -> Rabat -> -> Marseille -> -> Seattle
+
+# a star in place of one of the round trip times.  this notation means that no response (error packet)
+# was received in response to the probe. In this case, the cause is probably congestion, 
+# but that is not the only possibility.
+# traceroute relies on low-priority ICMP packets, 
+# which many routers are smart enough to drop in preference to “real” tra c.
+# A few stars shouldn’t send you into a panic.
+# If you see stars in all the time  elds for a given gateway, 
+# no “time exceeded” messages came back from that machine. Perhaps the gateway is simply down.
+# Sometimes, a gateway or  rewall is con gured to silently discard packets with expired TTLs. 
+# In this case, you can still see through the silent host to the gateways beyond. 

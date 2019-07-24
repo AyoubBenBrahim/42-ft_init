@@ -1,0 +1,7 @@
+eval ifconfig en0 | awk -F" " '(NR == 5) {print $6}'
+
+# a/ broadcast address 
+
+# b/  IP adresses which are part of the same subnet 10.12.5.0
+# ping -c 2 10.12.255.255
+

@@ -1,0 +1,6 @@
+eval pgrep sshd
+
+#or
+#eval ps aux | grep -v grep | grep sshd
+#or
+#pidof /usr/sbin/sshd

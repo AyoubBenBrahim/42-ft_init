@@ -1,0 +1,3 @@
+eval sudo fdisk -l
+
+#list partitions

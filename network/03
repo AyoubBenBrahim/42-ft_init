@@ -1,0 +1,2 @@
+eval ifconfig en1 | awk -F" " '(NR == 2) {print $2}'
+#Identify the MAC address of the Wi-Fi card

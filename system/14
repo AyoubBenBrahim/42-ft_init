@@ -1,0 +1,12 @@
+eval sudo tail -f /var/log/syslog &
+
+#1/ command + &
+#2/ fg : if u want to turn to foreground
+#3/ jobs -l : view all background jobs with their PID
+#4/ sudo kill -9 PID : terminate process
+#===
+#or 
+# 1/ run the command
+# 2/ CONTROL-Z + bg : moving the job from the foreground to the background
+# 3/ disown : removes the job from the shell's job list / Remove jobs from
+# the table of active job.

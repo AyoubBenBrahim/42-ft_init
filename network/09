@@ -1,0 +1,4 @@
+eval nslookup 42.fr | awk '/Address/ && !/#/'
+
+# eval host 42.fr | awk -F" " '(NR <= 3) {print $4}'
+# eval dig 42.fr | grep "^42.fr"

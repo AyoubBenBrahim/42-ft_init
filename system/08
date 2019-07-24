@@ -1,0 +1,7 @@
+~/.ssh/authorized_keys
+
+# OpenSSH (and the SSH protocol generally) can use public key cryptography 
+# to authenticate users to remote systems.
+# As a user, you start by creating a public/private key pair.
+# You give the public key to the server administrator,
+# who adds it to the server in the  ~/.ssh/authorized_keys. 

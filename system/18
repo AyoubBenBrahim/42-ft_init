@@ -1,0 +1,3 @@
+eval sudo pkill sshd
+
+#kill -9 $(pgrep sshd)

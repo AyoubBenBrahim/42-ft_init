@@ -1,0 +1,5 @@
+eval cat /etc/passwd | awk -F':' '{print $1}'
+
+# The above example lists users irrespective of their status or privileges which means 
+# it will also contain the pseudo users(mail, apache..).
+

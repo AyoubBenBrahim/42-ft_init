@@ -1,0 +1,3 @@
+eval nslookup slash16.org
+
+# eval dig | awk -F" " '(NR == 27) {print $3}'

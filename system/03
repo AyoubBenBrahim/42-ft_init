@@ -1,0 +1,3 @@
+1/ hostname or cat /etc/hostname
+2/ sudo hostnamectl set-hostname ayoub
+3/ edit /etc/hosts

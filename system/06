@@ -1,0 +1,8 @@
+eval systemctl restart ssh
+
+#or
+#service sshd restart
+#or
+#service ssh restart
+#or
+#/etc/init.d/ssh restart

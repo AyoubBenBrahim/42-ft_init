@@ -1,0 +1,15 @@
+eval sudo systemctl list-units --type service
+
+#or sudo service --status-all
+
+# Daemons are processes that are often started when the system is bootstrapped and 
+# terminate only when the system is shutdown. 
+# ----
+# There are three basic types of processes in Linux: interactive, batch and daemon.
+# -> Interactive processes are run interactively by a user at the command line.
+# -> Batch processes are submitted from a queue of processes and are not associated with 
+# the command line;
+# -> Daemons are recognized by the system as any processes whose parent process has a PID of one,
+# which always represents the process init.
+# init is always the first process that  is started when a Linux computer is booted up
+# and it remains on the system until the computer is turned off.

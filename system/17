@@ -1,0 +1,5 @@
+username@ipaddress
+
+# 1/ Open the SSH terminal on your machine and run the following command:
+# ssh your_username@host_ip_address
+# 2/ Type in your password and hit Enter.

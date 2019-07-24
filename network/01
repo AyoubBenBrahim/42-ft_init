@@ -1,0 +1,3 @@
+eval ifconfig -l
+
+ #list all network interfaces

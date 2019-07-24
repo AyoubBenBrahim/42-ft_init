@@ -1,0 +1,16 @@
+eval cat /etc/passwd | awk -F':' '{ if ($3 >= 1000 && $3 < 60000) print $1}' 
+
+# cat /etc/login.defs or /etc/adduser.conf for User ID Ranges
+# system UID :
+# min 100
+# max 999
+# real users :
+# min 1000
+# max 59999
+
+#====
+# cat /etc/passwd | grep home
+
+# the real users on the system have a home directory at /home
+
+# ls /home

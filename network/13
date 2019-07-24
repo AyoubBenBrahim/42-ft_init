@@ -1,0 +1,3 @@
+eval nslookup 10.12.5.11 | awk -F" " '(NR == 4) {print $4}'
+# host 10.12.5.11
+

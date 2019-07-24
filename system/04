@@ -1,0 +1,2 @@
+eval uptime -p
+#who -b
